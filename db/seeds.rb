@@ -1,8 +1,20 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-Stadium.where(name: '', image_file: '').first_or_create
+Stadium.where(name: 'Boston Garden',
+              image_file: 'BostonGarden.jpg').first_or_create
+Stadium.where(name: 'Camden Yards',
+              image_file: 'CamdenYards.jpg').first_or_create
+Stadium.where(name: 'Chicago Stadium',
+              image_file: 'ChicagoStadium.jpg').first_or_create
+Stadium.where(name: 'Dodger Stadium',
+              image_file: 'DodgerStadium.jpg').first_or_create
+Stadium.where(name: 'Fenway Park',
+              image_file: 'FenwayPark.jpg').first_or_create
+Stadium.where(name: 'Forbes Field',
+              image_file: 'ForbesField.jpg').first_or_create
+Stadium.where(name: 'Maple Leaf Gardens',
+              image_file: 'MapleLeaf.jpg').first_or_create
+Stadium.where(name: 'Montreal Forum',
+              image_file: 'MontrealForum.jpg').first_or_create
+Stadium.where(name: 'Wrigley Field',
+              image_file: 'WrigleyField.jpg').first_or_create
+Stadium.where(name: 'Yankee Stadium',
+              image_file: 'YankeeStadium.jpg').first_or_create
