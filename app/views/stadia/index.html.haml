@@ -1,7 +1,8 @@
 %div{"data-controller" => "slideshow"}
   %button{"data-action" => "slideshow#previous"} ←
   %button{"data-action" => "slideshow#next"} →
-  .slide{"data-target" => "slideshow.slide"} 🐵
-  .slide{"data-target" => "slideshow.slide"} 🙈
-  .slide{"data-target" => "slideshow.slide"} 🙉
-  .slide{"data-target" => "slideshow.slide"} 🙊
+  - @stadia.each do |stadium|
+    .slide{"data-target" => "slideshow.slide"}
+      %h2
+        = stadium.name
+      = image_pack_tag stadium.image_file, size: '800x500'
