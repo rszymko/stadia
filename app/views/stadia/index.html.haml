@@ -1,6 +1,6 @@
 %div{ 'data-controller' => 'slideshow', 'data-slideshow-index' => '0' }
   %button{ 'data-action' => 'slideshow#previous' } ←
-  %button{ 'data-action' => 'slideshow#next' } →
+  %button.next{ 'data-action' => 'slideshow#next' } →
   - @stadia.each do |stadium|
     .slide{ 'data-target' => 'slideshow.slide' }
       %h2

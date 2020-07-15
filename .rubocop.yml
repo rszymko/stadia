@@ -1,0 +1,13 @@
+require: rubocop-rails
+
+Metrics/LineLength:
+  Max: 100
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*.rb
+Rails/UniqueValidationWithoutIndex:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false

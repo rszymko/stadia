@@ -58,6 +58,9 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    apparition (0.6.0)
+      capybara (~> 3.13, < 4)
+      websocket-driver (>= 0.6.5)
     ast (2.4.0)
     better_errors (2.7.0)
       coderay (>= 1.0.0)
@@ -308,6 +311,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  apparition
   better_errors
   binding_of_caller
   bootsnap (>= 1.4.2)

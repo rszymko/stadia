@@ -34,6 +34,7 @@ group :development do
 end
 
 group :test do
+  gem 'apparition'
   gem 'capybara', '>= 2.15'
   gem 'database_cleaner-active_record'
   gem 'pundit-matchers'
