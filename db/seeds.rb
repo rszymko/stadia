@@ -10,6 +10,8 @@ Stadium.where(name: 'Fenway Park',
               image_file: 'FenwayPark.jpg').first_or_create
 Stadium.where(name: 'Forbes Field',
               image_file: 'ForbesField.jpg').first_or_create
+Stadium.where(name: 'Madison Square Garden',
+              image_file: 'MadisonSquareGarden.jpg').first_or_create
 Stadium.where(name: 'Maple Leaf Gardens',
               image_file: 'MapleLeaf.jpg').first_or_create
 Stadium.where(name: 'Montreal Forum',
