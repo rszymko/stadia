@@ -1,0 +1,15 @@
+= form_for stadium, multipart: true do |f|
+  .field.form-group
+    = f.label :name
+    = f.text_field :name
+  .field.form-group
+    = f.label :image_file
+    = f.text_field :image_file
+  .field.form-group
+    = f.label :build_date
+    = f.text_field :build_date
+  .field.form-group
+    = f.label :demolition_date
+    = f.text_field :demolition_date
+  .actions
+    = f.submit
