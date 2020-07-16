@@ -1,2 +1,16 @@
 %h2
   = @stadium.name
+.row
+  .col.py-2
+    %b= 'Build Date'
+  .col.py-2
+    = @stadium.build_date
+.row
+  .col.py-2
+    %b= 'Demolition Date'
+  .col.py-2
+    = @stadium.build_date
+.row
+  = image_pack_tag @stadium.image_file, size: '800x500'
+.row
+  = link_to 'Edit', edit_stadium_path(@stadium)

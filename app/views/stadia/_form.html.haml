@@ -13,3 +13,4 @@
     = f.text_field :demolition_date, data: { controller: 'datepicker' }
   .actions
     = f.submit
+    = link_to 'Cancel', (stadium.persisted? ? stadium_path(stadium) : stadia_path)
