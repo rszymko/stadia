@@ -9,7 +9,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'haml-rails', '~> 2.0'
 gem 'jbuilder', '~> 2.7'
 gem 'kaminari'
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 gem 'pundit'
 gem 'rubocop-rails', require: false
 gem 'sass-rails', '>= 6'
